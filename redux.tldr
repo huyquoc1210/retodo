@@ -1,0 +1,874 @@
+{
+	"tldrawFileFormatVersion": 1,
+	"schema": {
+		"schemaVersion": 1,
+		"storeVersion": 4,
+		"recordVersions": {
+			"asset": {
+				"version": 1,
+				"subTypeKey": "type",
+				"subTypeVersions": {
+					"image": 3,
+					"video": 3,
+					"bookmark": 1
+				}
+			},
+			"camera": {
+				"version": 1
+			},
+			"document": {
+				"version": 2
+			},
+			"instance": {
+				"version": 24
+			},
+			"instance_page_state": {
+				"version": 5
+			},
+			"page": {
+				"version": 1
+			},
+			"shape": {
+				"version": 3,
+				"subTypeKey": "type",
+				"subTypeVersions": {
+					"group": 0,
+					"text": 1,
+					"bookmark": 2,
+					"draw": 1,
+					"geo": 8,
+					"note": 5,
+					"line": 1,
+					"frame": 0,
+					"arrow": 3,
+					"highlight": 0,
+					"embed": 4,
+					"image": 3,
+					"video": 2
+				}
+			},
+			"instance_presence": {
+				"version": 5
+			},
+			"pointer": {
+				"version": 1
+			}
+		}
+	},
+	"records": [
+		{
+			"gridSize": 10,
+			"name": "",
+			"meta": {},
+			"id": "document:document",
+			"typeName": "document"
+		},
+		{
+			"id": "pointer:pointer",
+			"typeName": "pointer",
+			"x": 1294.8203125,
+			"y": 218.34375,
+			"lastActivityTimestamp": 1708426903582,
+			"meta": {}
+		},
+		{
+			"meta": {},
+			"id": "page:page",
+			"name": "Page 1",
+			"index": "a1",
+			"typeName": "page"
+		},
+		{
+			"x": 0,
+			"y": 0,
+			"z": 1,
+			"meta": {},
+			"id": "camera:page:page",
+			"typeName": "camera"
+		},
+		{
+			"editingShapeId": null,
+			"croppingShapeId": null,
+			"selectedShapeIds": [],
+			"hoveredShapeId": null,
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:page",
+			"pageId": "page:page",
+			"typeName": "instance_page_state"
+		},
+		{
+			"followingUserId": null,
+			"opacityForNextShape": 1,
+			"stylesForNextShape": {
+				"tldraw:geo": "rectangle",
+				"tldraw:color": "red"
+			},
+			"brush": null,
+			"scribbles": [],
+			"cursor": {
+				"type": "default",
+				"rotation": 0
+			},
+			"isFocusMode": false,
+			"exportBackground": true,
+			"isDebugMode": false,
+			"isToolLocked": false,
+			"screenBounds": {
+				"x": 0,
+				"y": 0,
+				"w": 2126,
+				"h": 1232
+			},
+			"insets": [
+				false,
+				false,
+				true,
+				false
+			],
+			"zoomBrush": null,
+			"isGridMode": false,
+			"isPenMode": false,
+			"chatMessage": "",
+			"isChatting": false,
+			"highlightedUserIds": [],
+			"canMoveCamera": true,
+			"isFocused": true,
+			"devicePixelRatio": 2,
+			"isCoarsePointer": false,
+			"isHoveringCanvas": true,
+			"openMenus": [],
+			"isChangingStyle": false,
+			"isReadonly": false,
+			"meta": {},
+			"duplicateProps": null,
+			"id": "instance:instance",
+			"currentPageId": "page:page",
+			"typeName": "instance"
+		},
+		{
+			"x": 581.671875,
+			"y": 143.8203125,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:yDIdzpNPrvneF1Bq9P2Uj",
+			"type": "geo",
+			"props": {
+				"w": 169.2109375,
+				"h": 54.5390625,
+				"geo": "rectangle",
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"dash": "draw",
+				"size": "m",
+				"font": "draw",
+				"text": "",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"growY": 0,
+				"url": ""
+			},
+			"parentId": "page:page",
+			"index": "a1",
+			"typeName": "shape"
+		},
+		{
+			"x": 624.7890625,
+			"y": 155.0390625,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:3MFGu4CvutsIqpfflAnQB",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 67.4140625,
+				"text": "Store",
+				"font": "draw",
+				"align": "middle",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a2",
+			"typeName": "shape"
+		},
+		{
+			"x": 571.203125,
+			"y": 94.2578125,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:ahCnnm-AAYLGm5oqeWwYe",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 172.7265625,
+				"text": "(Global state)",
+				"font": "draw",
+				"align": "middle",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a3",
+			"typeName": "shape"
+		},
+		{
+			"x": 112.4765625,
+			"y": 309.75,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:mqEe_pDQuRebxOgmySatZ",
+			"type": "geo",
+			"props": {
+				"w": 382.18359375000006,
+				"h": 173.30078125,
+				"geo": "rectangle",
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"dash": "draw",
+				"size": "m",
+				"font": "draw",
+				"text": "",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"growY": 0,
+				"url": ""
+			},
+			"parentId": "page:page",
+			"index": "a4",
+			"typeName": "shape"
+		},
+		{
+			"x": 129.3984375,
+			"y": 315.7265625,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:ja5hisI6zqpBk_WsCObyv",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 324.9765625,
+				"text": "Slice (một phần của store)",
+				"font": "draw",
+				"align": "middle",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a5",
+			"typeName": "shape"
+		},
+		{
+			"x": 133.8125,
+			"y": 361.9140625,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:w18E466_PlgRcs86FEbst",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 204.1875,
+				"text": "- Khai báo state",
+				"font": "draw",
+				"align": "middle",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a6",
+			"typeName": "shape"
+		},
+		{
+			"x": 133.59765625,
+			"y": 400.99609375,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:ExtWinUvU4DRVtjy7hvf3",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 335.25,
+				"text": "- Những hàm update state\n(reducer)",
+				"font": "draw",
+				"align": "middle",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a7",
+			"typeName": "shape"
+		},
+		{
+			"x": 574.953125,
+			"y": 170.515625,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:aZfULsN8U7vRSWD-lpADZ",
+			"type": "arrow",
+			"parentId": "page:page",
+			"index": "a8",
+			"props": {
+				"dash": "draw",
+				"size": "m",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"type": "point",
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"type": "point",
+					"x": -311.19140625,
+					"y": 136.96875
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"text": "",
+				"labelPosition": 0.5,
+				"font": "draw"
+			},
+			"typeName": "shape"
+		},
+		{
+			"x": 98.3203125,
+			"y": 155.28125,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:0oXFlicI7GxhqexEYV5bZ",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 366.59375,
+				"text": "Store là tập hợp của các slice",
+				"font": "draw",
+				"align": "middle",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a9",
+			"typeName": "shape"
+		},
+		{
+			"x": 113.21875,
+			"y": 669.4921875,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:LzNEMGOnQ0HRMqM8RVhJH",
+			"type": "geo",
+			"props": {
+				"w": 536.05859375,
+				"h": 154.82421875,
+				"geo": "rectangle",
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"dash": "draw",
+				"size": "m",
+				"font": "draw",
+				"text": "",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"growY": 0,
+				"url": ""
+			},
+			"parentId": "page:page",
+			"index": "aA",
+			"typeName": "shape"
+		},
+		{
+			"x": 131.28515625,
+			"y": 682.2734375,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:GsYgdBG2Ex5_9bP_zKmaq",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 105.859375,
+				"text": "Dispatch",
+				"font": "draw",
+				"align": "middle",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aB",
+			"typeName": "shape"
+		},
+		{
+			"x": 135.109375,
+			"y": 722.97265625,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:vhtmCY1d2MEDUbWdjlHaK",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 245.1796875,
+				"text": "- Để cập nhật state",
+				"font": "draw",
+				"align": "middle",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aC",
+			"typeName": "shape"
+		},
+		{
+			"x": 134,
+			"y": 763.35546875,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:HJTGnquLrEtiLE-SzEi44",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 492.453125,
+				"text": "- VD: dispatch(setMessage({ ... data }))",
+				"font": "draw",
+				"align": "middle",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aD",
+			"typeName": "shape"
+		},
+		{
+			"x": 286.8203125,
+			"y": 451.2265625,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:R9xMZkz6aXwdrv4XsmBUh",
+			"type": "arrow",
+			"parentId": "page:page",
+			"index": "aE",
+			"props": {
+				"dash": "draw",
+				"size": "m",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"type": "binding",
+					"boundShapeId": "shape:ExtWinUvU4DRVtjy7hvf3",
+					"normalizedAnchor": {
+						"x": 0.4570399888143177,
+						"y": 0.7751989389920424
+					},
+					"isPrecise": false,
+					"isExact": false
+				},
+				"end": {
+					"type": "binding",
+					"boundShapeId": "shape:HJTGnquLrEtiLE-SzEi44",
+					"normalizedAnchor": {
+						"x": 0.5656629755370117,
+						"y": 0.7707981673498915
+					},
+					"isPrecise": true,
+					"isExact": false
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"text": "",
+				"labelPosition": 0.5,
+				"font": "draw"
+			},
+			"typeName": "shape"
+		},
+		{
+			"x": 791.4453125,
+			"y": 398.32421875,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:Ooz3ritqhnWqc7eGfN3q5",
+			"type": "geo",
+			"props": {
+				"w": 848.6210937500001,
+				"h": 242.390625,
+				"geo": "rectangle",
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"dash": "draw",
+				"size": "m",
+				"font": "draw",
+				"text": "",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"growY": 0,
+				"url": ""
+			},
+			"parentId": "page:page",
+			"index": "aF",
+			"typeName": "shape"
+		},
+		{
+			"x": 822.51953125,
+			"y": 422.33984375,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:krZjWgCeYc8CL0GqvkM_u",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 101.4453125,
+				"text": "Selector",
+				"font": "draw",
+				"align": "middle",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aG",
+			"typeName": "shape"
+		},
+		{
+			"x": 817.015625,
+			"y": 460.8359375,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:_GLZVXWcdoLKYP3MBsY9J",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 617.25,
+				"text": "- Để lấy dữ liệu từ store, hoặc từ một slice cụ thể",
+				"font": "draw",
+				"align": "middle",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aH",
+			"typeName": "shape"
+		},
+		{
+			"x": 821.203125,
+			"y": 503.546875,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:skaEIJVjuf4ntoAURlXOk",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 724.4609375,
+				"text": "- Lấy toàn bộ dữ liệu từ store: const state = useSelector()",
+				"font": "draw",
+				"align": "middle",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aI",
+			"typeName": "shape"
+		},
+		{
+			"x": 818.8125,
+			"y": 547.12109375,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:Ogl6GcQcEjHichMmVoRnS",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 406.625,
+				"text": "- Lấy dữ liệu từ một slice cụ thể:",
+				"font": "draw",
+				"align": "middle",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aJ",
+			"typeName": "shape"
+		},
+		{
+			"x": 857.98046875,
+			"y": 580.28515625,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:G7vtgdeYsDmxfwfZ-nPCG",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 738.140625,
+				"text": "const notification = useSelector(state => state.notification)",
+				"font": "draw",
+				"align": "middle",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aK",
+			"typeName": "shape"
+		},
+		{
+			"x": 554.796875,
+			"y": 207.53515625,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:A5eDGz6dW4ZjNZ-ngJL4z",
+			"type": "arrow",
+			"parentId": "page:page",
+			"index": "a1V",
+			"props": {
+				"dash": "draw",
+				"size": "m",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"type": "binding",
+					"boundShapeId": "shape:yDIdzpNPrvneF1Bq9P2Uj",
+					"normalizedAnchor": {
+						"x": 0.7313818735860381,
+						"y": 0.9688440051568543
+					},
+					"isPrecise": true,
+					"isExact": false
+				},
+				"end": {
+					"type": "point",
+					"x": 626.625,
+					"y": 190.31640625
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"text": "",
+				"labelPosition": 0.5,
+				"font": "draw"
+			},
+			"typeName": "shape"
+		},
+		{
+			"x": 100.40234375,
+			"y": 882.6953125,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:WXxZJg0sG00X9NinqmSf1",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 1286.875,
+				"text": "// useReducer: thay đổi là thay đổi cả cục state, bất cứ state nhỏ nào thay đổi, reducer cũng render lại",
+				"font": "draw",
+				"align": "middle",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aL",
+			"typeName": "shape"
+		},
+		{
+			"x": 1496.3203125,
+			"y": 699.1484375,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:ozHkhJdpQrtL-T5HRSihs",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 191.3984375,
+				"text": "const store = {\nnotification: {},\nproducts: [],\nusers: []\n}",
+				"font": "draw",
+				"align": "middle",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aM",
+			"typeName": "shape"
+		},
+		{
+			"x": 195.3828125,
+			"y": 555.5,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:0cxq5n8F5U8TWtRg1yFfL",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 294.40625,
+				"text": "// Update async (thunk)",
+				"font": "draw",
+				"align": "middle",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aN",
+			"typeName": "shape"
+		},
+		{
+			"x": 131.13671875,
+			"y": 974.8671875,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:i2rBcUqMHfs1N7oFSvBBM",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 199.3359375,
+				"text": "1. Redux\n2. React-redux\n3. Redux toolkit",
+				"font": "draw",
+				"align": "middle",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aO",
+			"typeName": "shape"
+		},
+		{
+			"x": 765.1875,
+			"y": 94.640625,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:rRPat4rIIQ6zyQaqBouzA",
+			"type": "text",
+			"props": {
+				"color": "red",
+				"size": "m",
+				"w": 107.3203125,
+				"text": "=> JSON",
+				"font": "draw",
+				"align": "middle",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aP",
+			"typeName": "shape"
+		},
+		{
+			"x": 882.14453125,
+			"y": 93.25,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:umWnlJ7KgOTCn0GFUctHR",
+			"type": "text",
+			"props": {
+				"color": "red",
+				"size": "m",
+				"w": 569.0390625,
+				"text": "(string, number, bool, array, plain object, null)",
+				"font": "draw",
+				"align": "middle",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aQ",
+			"typeName": "shape"
+		},
+		{
+			"x": 144.9296875,
+			"y": 1114.71484375,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:4iRM81IMj9IiK32USPU9l",
+			"type": "text",
+			"props": {
+				"color": "red",
+				"size": "m",
+				"w": 216.71875,
+				"text": "Zustand, Recoil,...",
+				"font": "draw",
+				"align": "middle",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aR",
+			"typeName": "shape"
+		}
+	]
+}

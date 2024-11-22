@@ -1,0 +1,12 @@
+{
+  "mixed": {
+    "required": "Bắt buộc",
+    "notType": "Giá trị không hợp lệ"
+  },
+  "string": {
+    "max": "Độ dài tối đa là 255 ký tự"
+  },
+  "email": {
+    "invalid": "Địa chỉ email không hợp lệ"
+  }
+}
